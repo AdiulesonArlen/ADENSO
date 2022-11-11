@@ -3,3 +3,7 @@
     text-align: justify;
     font-family: 'JetBrains Mono', 'Cascadia Code', monospace;
 }
+
+h3{
+    background-color: rgb(96, 240, 192);
+}
