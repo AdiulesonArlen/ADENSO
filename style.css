@@ -11,6 +11,10 @@ body{
     width: 98%;
 }
 
+img{
+    border-radius: 10%;
+}
+
 h3{
     background-color: rgba(105, 226, 185, 0.448);
     
