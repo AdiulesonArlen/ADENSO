@@ -7,38 +7,41 @@
 
 body{
     border: 1px solid;
-    border-radius: 2%;
-    width: 98%;
+    /* border-radius: 2%; */
+    width: 100%;
+    margin: 0;
 }
 
 header{
     display: flex;
+    border: 1px solid;
+    margin: 0;
 }
 
-#tittle{
-    text-align: center;
+
+h1, h2{
+    margin-right: 100px;
+    width: 100%;
+    
 }
 
-#header, h1, h2{
-    display: flex;
-}
 
 #main{
+    margin: 0;
     display: flex;
 }
 
 #aside{
+    margin: 0;
     width: 35%;
-    font-size: 14px;
     background-color: aquamarine;
+    border: 1px solid;
 }
 
 #section{
+    margin: 0;
     width: 65%;
+    border: 1px solid;
 }
 
-img, h1, h2{
-    border-radius: 10%;
-    display: flex;
-}
 
