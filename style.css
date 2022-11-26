@@ -7,15 +7,19 @@
 
 body{
     border: 1px solid;
-    /* border-radius: 2%; */
+    border-radius: 2%;
     width: 100%;
     margin: 0;
 }
 
 header{
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 0;
+}
+
+img{
+    border-radius: 10%;
 }
 
 
@@ -25,6 +29,9 @@ h1, h2{
     
 }
 
+nav{
+    display: flex;
+}
 
 #main{
     margin: 0;
@@ -32,16 +39,16 @@ h1, h2{
 }
 
 #aside{
-    margin: 0;
+    margin: 1%;
     width: 35%;
-    background-color: aquamarine;
-    border: 1px solid;
+    background-color: rgb(202, 184, 245);
+    /* border: 1px solid; */
 }
 
 #section{
     margin: 0;
     width: 65%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 
