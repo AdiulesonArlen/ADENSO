@@ -1,6 +1,6 @@
 * {
     margin: 1%;
-    text-align: justify;
+    text-align: left;
     font-family: 'JetBrains Mono', 'Cascadia Code', monospace;
     
 }
@@ -11,12 +11,34 @@ body{
     width: 98%;
 }
 
-img{
-    border-radius: 10%;
+header{
+    display: flex;
 }
 
-h3{
-    background-color: rgba(105, 226, 185, 0.448);
-    
-    
+#tittle{
+    text-align: center;
 }
+
+#header, h1, h2{
+    display: flex;
+}
+
+#main{
+    display: flex;
+}
+
+#aside{
+    width: 35%;
+    font-size: 14px;
+    background-color: aquamarine;
+}
+
+#section{
+    width: 65%;
+}
+
+img, h1, h2{
+    border-radius: 10%;
+    display: flex;
+}
+
