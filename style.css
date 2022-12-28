@@ -3,54 +3,50 @@
     text-align: left;
     font-family: 'JetBrains Mono', 'Cascadia Code', monospace;
     
-}
-
-body{
-    border: 1px solid;
-    border-radius: 10px;
+  }
+  
+  body{
     width: 100%;
     margin: 0;
-}
-
-header{
+    border: solid 1px ;
+    border-radius: 5px;
+  }
+  
+  header{
+    margin: 1px;
     display: flex;
-    /* border: 1px solid; */
-    margin: 0 0 90px;
-}
-
-img{
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  
+  img{
+    margin: 0;
     padding: 0;
-    border: 0;
-    margin: 0;
-    border-radius: 5px;
+    display: inline;
     width: 200px;
-}
-
-nav{
+    border-radius: 5px;
+  }
+  
+  main{
+    margin: 1px;
     display: flex;
-}
-
-main{
-    margin: 0;
-    display: flex;
-}
-
-aside{
-    width: 400px;
+  }
+  
+  aside{
+    margin: 1px;
+    width: 200px;
+    padding: 20px;
     background-color: rgb(202, 184, 245);
+    border: solid 1px;
     border-radius: 5px;
     box-sizing: border-box;
-    /* border: 1px solid; */
-}
-
-section{
-    margin: 0;
-    text-align: justify;
-    box-sizing: border-box;
-    
-    /* border: 1px solid; */
-}
-
-section h1{
-    font-weight: bold;
-}
+  }
+  
+  section{
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    display: block;
+  }
