@@ -14,8 +14,8 @@
   
   header{
     margin: 1px;
+    padding: 0;
     display: flex;
-    border: solid 1px;
     border-radius: 5px;
   }
   
@@ -37,7 +37,6 @@
     width: 200px;
     padding: 20px;
     background-color: rgb(202, 184, 245);
-    border: solid 1px;
     border-radius: 5px;
     box-sizing: border-box;
   }
@@ -46,7 +45,6 @@
     margin: 1px;
     padding: 10px;
     display: flex;
-    border: solid 1px;
     border-radius: 5px;
     display: block;
   }
